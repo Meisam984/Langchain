@@ -1,0 +1,5 @@
+/.env
+/.idea
+/.ipynb_checkpoints
+/langchain_env
+/raw.githubusercontent.com_lerocha_chinook-database_master_ChinookDatabase_DataSources_Chinook_Sqlite.sql.txt
