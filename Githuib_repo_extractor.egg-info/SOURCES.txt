@@ -1,0 +1,6 @@
+setup.py
+Githuib_repo_extractor.egg-info/PKG-INFO
+Githuib_repo_extractor.egg-info/SOURCES.txt
+Githuib_repo_extractor.egg-info/dependency_links.txt
+Githuib_repo_extractor.egg-info/requires.txt
+Githuib_repo_extractor.egg-info/top_level.txt
