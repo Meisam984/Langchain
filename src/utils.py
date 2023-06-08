@@ -44,12 +44,12 @@ def split_to_chunks(docs):
 def embed_upload_chunks(documents, account_name):
     try:
         embeddings = OpenAIEmbeddings()
-        db = DeepLake.from_documents(documents, embeddings, dataset_path=f"hub://{account_name}/langchain-code")
+        DeepLake.from_documents(documents, embeddings, dataset_path=f"hub://{account_name}/langchain-code")
         logger.info(f"Uploaded the embedded text chunks unto hub://{account_name}/langchain-code")
     except Exception as e:
         raise CustomException(e)
     
-    return db
+    
 
 
 

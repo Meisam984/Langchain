@@ -31,7 +31,11 @@ deeplake_account = st.sidebar.text_input(
 
 docs = load_split_git_url(root_URL)
 texts = split_to_chunks(docs)
-db = embed_upload_chunks(texts, deeplake_account)
+embed_upload_chunks(texts, deeplake_account)
+
+
+
+
 
 
 
